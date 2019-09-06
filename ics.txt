@@ -1,4 +1,5 @@
 Name:Jaden Turner
 Age:16
-Class:ICS 1 2019-2020
+Class:Intergrated Computer Science 1 2019-2020
 Period: 7th
+
