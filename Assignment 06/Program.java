@@ -39,7 +39,7 @@ public class Program{
 		
 	}	else{
 	
-	return;
+			return;
 	}
 		drawPolygon(sides,bob,angles);
   }

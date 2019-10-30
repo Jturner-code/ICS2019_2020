@@ -15,7 +15,6 @@ def hilo(guess, answer):
 	hilo(guess, number)
 
 
-
 number = random.randint(1,100)
 guess = int(input("Guess the number, enter a number betweewn 1 and 100:"))
 hilo(guess, number)
