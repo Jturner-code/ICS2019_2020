@@ -8,7 +8,6 @@ import seaborn as sns # visualization
 import numpy as np
 data=pandas.read_csv("Missile.data",header=None)
 print(data)
-
 sns.pairplot(data=data,vars=(0,1,2), hue=3)
 plt.show()
 data=np.array(data)
@@ -16,6 +15,7 @@ X=data[:,0:3] #This gets all the rows and only the first 4 columns.
 Y=data[:,3]
 print(X.shape) #(150,4)
 print(Y.shape) #(150,)
+X,Y=shuffle(X,Y,random_state=0)
 trainX=X[:65]
 trainY=Y[:65]
 testX=X[65:]
