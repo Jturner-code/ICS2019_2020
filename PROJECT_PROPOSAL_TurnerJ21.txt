@@ -1,0 +1,1 @@
+I'm going to use a machince learning technique to get the computer almost perfect at playing the snake game (probably in 3d to make it more interesting)
